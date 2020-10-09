@@ -16,6 +16,10 @@
     @apply fill-current w-4 h-4 mr-4 text-secondary-500;
 }
 
+.section-header-icon {
+    @apply fill-current w-8 h-8 mt-1 mr-2 text-primary-500 flex;
+}
+
 .contact-link {
     @apply text-sm;
 }
@@ -25,7 +29,7 @@
 }
 
 .section-header {
-    @apply text-primary-500 text-xl border-l-4 border-primary-500 pl-3 font-bold;
+    @apply text-primary-500 text-2xl font-bold border-b border-neutral-300 pb-3 flex-auto; /*text-center border-l-4 border-primary-500 pl-3 bg-primary-500 font-mono pb-2 md:flex items-center justify-between*/
 }
 
 .item-header {

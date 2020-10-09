@@ -1,8 +1,11 @@
 import React from 'react';
+import IdIcon from '../assets/identification.svg';
 
 const Experience = ({ data }) => (
   <section>
-    <h1 className="section-header">Experience</h1>
+    <h1 className="section-header">
+      <span className="flex"><IdIcon className="section-header-icon"/>Experience</span>
+    </h1>
     {data &&
       data.map((item, i) => (
         <article className="my-5" key={`${item.company}-${i}`}>

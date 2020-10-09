@@ -1,10 +1,13 @@
 import React from 'react';
 import Progress from './progress';
 import ListItem from './list_item';
+import CodeIcon from '../assets/code.svg';
 
 const Skills = ({ data }) => (
   <section>
-    <h1 className="section-header">Skills</h1>
+    <h1 className="section-header">
+      <span className="flex"><CodeIcon className="section-header-icon"/>Skills</span>
+    </h1>
     {data.map(skill => (
       <div key={skill.title} className="my-5">
         <h1 className="item-header font-semibold text-lg mb-2">

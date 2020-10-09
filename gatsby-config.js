@@ -6,22 +6,19 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Baran Cezayirli | Technologist`,
-    author: `Baran Cezayirli`,
-    description: `With 10+ years of experience in various industries, I help tech
-              startups from idea phase to high volumes. I design and build
-              scalable solutions, implement internal processes that fit your
-              organization, build teams that produce results.`,
-    siteUrl: `https://barancezayirli.com/`,
-    social: {
-      twitter: `barancezayirli`,
-    },
+    title: `Mike Liao | Software Engineer`,
+    author: `Mike Liao`,
+    description: `A diligent self-learner and a passionate knowledge sharer. I strive to build great products and can take an initial idea, tackle it from multiple angles and take it from something great to something incredible. With both accounting/auditing and software development experience, I mitigate the gap between end users and developers, co-design and build scalable solutions.`,
+    siteUrl: `https://noworneverev.github.io/`,
+    // social: {
+    //   twitter: `barancezayirli`,
+    // },
   },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Baran Cezayirli | Technologist`,
+        name: `Mike Liao | Software Engineer`,
         short_name: `CV`,
         start_url: `/`,
         background_color: `#f7f0eb`,

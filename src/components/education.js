@@ -1,8 +1,12 @@
 import React from 'react';
+import CapIcon from '../assets/academic-cap.svg';
 
 const Education = ({ data }) => (
   <section className="mb-5">
-    <h1 className="section-header mb-5">Education</h1>
+    
+    <h1 className="section-header mb-5">
+      <span className="flex"><CapIcon className="section-header-icon"/>Education</span>
+    </h1>        
     {data &&
       data.map(item => (
         <div className="my-2" key={item.degree}>
